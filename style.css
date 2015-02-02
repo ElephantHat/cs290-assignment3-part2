@@ -5,9 +5,7 @@
 #right { 
 	width: 50%;
 	float: right;
-/*	position: relative;
-	top: 0px;
-*/}
+}
 
 #left {
 	width: 45%;
@@ -19,5 +17,5 @@
 	width:100%;
 	margin: 1em 0;
 	padding: 1em;
-	border: 1px solid black;
+	border: 1px solid #000;
 }
