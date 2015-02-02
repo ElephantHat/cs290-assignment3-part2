@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" >
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="top">
+			<fieldset>
+				<legend>GIST retrieval options</legend>
+				<label for="pages">How many pages of gists do you
+					want?</label>
+				<select name="pages" id="pages">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+				<br>
+				<p>For what languages? (select none for "all" including
+				languages not listed here)
+				<label><input type="checkbox" name="lang" value="Python" />Python</label>
+				<label><input type="checkbox" name="lang" value="JSON" />JSON</label>
+				<label><input type="checkbox" name="lang" value="JavaScript" />JavaScript</label>
+				<label><input type="checkbox" name="lang" value="SQL" />SQL</label>
+				</p>
+				<br>
+				<input type="button" value="Search" onClick="getGists()" >
+			</fieldset>
+	</div>
+	<div id="left">
+		<h3>Search Results</h3>
+		<p id="status"></p>
+	</div>
+	<div id="right">
+		<h3>Saved Gists</h3>
+		<p id="savedTotal"></p>
+	</div>
+
+	
+	
+	</div>
+
+
+	</body>
+</html>

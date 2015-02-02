@@ -1,0 +1,23 @@
+#wrapper {
+	width: 100%;
+}
+
+#right { 
+	width: 50%;
+	float: right;
+/*	position: relative;
+	top: 0px;
+*/}
+
+#left {
+	width: 45%;
+	float: left;
+	margin-right: 1em;
+}
+
+.gist {
+	width:100%;
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid black;
+}
